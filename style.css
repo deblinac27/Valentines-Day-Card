@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(254,222, 222);
+    background-image: radial-gradient(circle, white 10%, transparent 10%);
+    background-size: 40px 40px;
+}
+
+.card {
+    margin: 50px auto;
+    width: 500px;
+	height: 650px;
+    background-color: white;
+    box-shadow: 0 1px 15px 0 rgba(10, 10, 10, 0.2);
+    transform: translateY(150vh);
+    transition: transform 3s ease-out;
+    position:relative;
+
+}
+
+.card.slide-up {
+  transform: translateY(0); 
+}
+
+.question {
+    display: grid;
+    place-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(190, 24, 82);
+}
+
+.message {
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+    height: 450px;
+    margin-left: 50px;
+    overflow: scroll;
+}
+
+.button {
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 135px;
+}
+
+
+.yes {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgreen;
+}
+
+.no {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
+    transition: all 0.3s ease-out;
+}
+
+
+
